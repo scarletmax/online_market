@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="online_market" />
+        <module name="online_market_user" />
+        <module name="eureka_server" />
+        <module name="online_market_redis" />
+        <module name="online_market_deliveryman" />
+        <module name="online_market_common" />
+        <module name="online_market_shop" />
+        <module name="online_market_bean" />
+        <module name="online_market_admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka_server" target="1.8" />
+      <module name="online_market" target="1.8" />
+      <module name="online_market_admin" target="1.8" />
+      <module name="online_market_bean" target="1.8" />
+      <module name="online_market_common" target="1.8" />
+      <module name="online_market_deliveryman" target="1.8" />
+      <module name="online_market_redis" target="1.8" />
+      <module name="online_market_shop" target="1.8" />
+      <module name="online_market_user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka_server" options="-parameters" />
+      <module name="online_market" options="-parameters" />
+      <module name="online_market_admin" options="-parameters" />
+      <module name="online_market_bean" options="-parameters" />
+      <module name="online_market_common" options="-parameters" />
+      <module name="online_market_deliveryman" options="-parameters" />
+      <module name="online_market_redis" options="-parameters" />
+      <module name="online_market_shop" options="-parameters" />
+      <module name="online_market_user" options="-parameters" />
+    </option>
+  </component>
+</project>

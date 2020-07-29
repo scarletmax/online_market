@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka_server/eureka_server.iml" filepath="$PROJECT_DIR$/eureka_server/eureka_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market.iml" filepath="$PROJECT_DIR$/online_market.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market_admin/online_market_admin.iml" filepath="$PROJECT_DIR$/online_market_admin/online_market_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market_bean/online_market_bean.iml" filepath="$PROJECT_DIR$/online_market_bean/online_market_bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market_common/online_market_common.iml" filepath="$PROJECT_DIR$/online_market_common/online_market_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market_deliveryman/online_market_deliveryman.iml" filepath="$PROJECT_DIR$/online_market_deliveryman/online_market_deliveryman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market_redis/online_market_redis.iml" filepath="$PROJECT_DIR$/online_market_redis/online_market_redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market_shop/online_market_shop.iml" filepath="$PROJECT_DIR$/online_market_shop/online_market_shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/online_market_user/online_market_user.iml" filepath="$PROJECT_DIR$/online_market_user/online_market_user.iml" />
+    </modules>
+  </component>
+</project>
