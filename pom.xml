@@ -22,6 +22,8 @@
 <!--    声明子模块-->
     <modules>
         <module>online_market_bean</module>
+        <module>eureka_server</module>
+        <module>online_market_admin</module>
     </modules>
 
     <dependencies>
