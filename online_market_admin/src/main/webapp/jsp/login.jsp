@@ -34,7 +34,7 @@
 <input hidden value="${pageContext.request.contextPath}" id="path">
 
 <div class="login layui-anim layui-anim-up">
-    <div class="message">文件共享系统后台管理登录</div>
+    <div class="message">掌上超市后台管理系统</div>
     <div id="darkbannerwrap"></div>
 
     <form method="post" class="layui-form" >

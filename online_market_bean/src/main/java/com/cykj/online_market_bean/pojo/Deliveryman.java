@@ -3,6 +3,7 @@ package com.cykj.online_market_bean.pojo;
 public class Deliveryman {
 
     private int id;
+    private String account;
     private String name;
     private String tel;
     private String idCard;
@@ -15,6 +16,14 @@ public class Deliveryman {
     private Double longitude;
 
     public Deliveryman() {
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
     }
 
     public int getId() {

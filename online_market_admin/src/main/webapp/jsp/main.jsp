@@ -26,7 +26,7 @@
 <!-- 顶部开始 -->
 <div class="container">
     <div class="logo">
-        <a href="${pageContext.request.contextPath}/jsp/main.jsp">文件共享系统后台管理</a></div>
+        <a href="${pageContext.request.contextPath}/jsp/main.jsp">掌上超市后台管理系统</a></div>
     <div class="left_open">
         <a><i title="展开左侧栏" class="iconfont">&#xe699;</i></a>
     </div>
