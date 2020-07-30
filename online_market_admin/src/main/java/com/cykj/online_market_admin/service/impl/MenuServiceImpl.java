@@ -30,7 +30,7 @@ public class MenuServiceImpl implements MenuService {
         //根据父级菜单获取分配的子菜单
         int num=attrList.size();
         for (int i = 0; i <num; i++) {
-            List<Menu> attrChild=menuMapper.getMenuByPid(attrList.get(i).getId().intValue(),roleId);
+            List<Menu> attrChild=menuMapper.getMenuByPid(attrList.get(i).getId(),roleId);
             for (int j = 0; j <attrChild.size(); j++) {
                 attrList.add(attrChild.get(j));
                 childList.add(attrChild.get(j));
@@ -46,7 +46,7 @@ public class MenuServiceImpl implements MenuService {
 
         //遍历 如果不存在则加入到未分配集合 获取子菜单
         for (int i = 0; i < allChild.size(); i++) {
-            int menuId= allChild.get(i).getId().intValue();
+            int menuId= allChild.get(i).getId();
             int temp=0;
             for (int j = 0; j <childList.size() ; j++) {
                 if(menuId==childList.get(j).getId().intValue()){
