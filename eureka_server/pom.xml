@@ -8,10 +8,12 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/>
     </parent>
+<!--    父级-->
     <groupId>com.cykj</groupId>
     <artifactId>eureka_server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>eureka_server</name>
+
     <description>Demo project for Spring Boot</description>
 
     <properties>
